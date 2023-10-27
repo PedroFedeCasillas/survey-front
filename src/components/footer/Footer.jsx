@@ -11,7 +11,7 @@ export const Footer = () => {
       </div>
 
       <div className={styles.divRight}>
-        <Link to="https://github.com/PedroFedeCasillas/" target="_blank">
+        <Link to="https://github.com/PedroFedeCasillas/survey-front" target="_blank">
           <BsGithub className={styles.logo} style={{color: "#919a95"}}/>
         </Link>
         <Link to="https://wa.me/5491151310624" target="_blank">
