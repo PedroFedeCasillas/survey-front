@@ -1,0 +1,41 @@
+.homeContainer{
+    height: 80vh;
+  }
+  
+  .carouselImage {
+    max-width: 400px;
+    max-height: 350px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+  }
+  
+  @media screen and (max-width: 868px) {
+    .homeContainer {
+      height: 100vh; 
+    }
+  
+    .carouselImage {
+      max-width: 100%;
+      max-height: auto; 
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .homeContainer {
+      height: 120vh; 
+    }
+  
+    .carouselImage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%; 
+      max-height: auto;
+      margin: 0 auto;
+    }
+  }
+  
